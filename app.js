@@ -1,7 +1,7 @@
 function darkmode() {
     var text = document.getElementById("btn-dm").innerText
     // alert(text)
-    if (text == "dark mode") {
+    if (text == "Dark Mode") {
         document.querySelector("body").style.color = "white";
         document.querySelector("body").style.backgroundColor = "#1F2937";
         document.querySelector(".ow").style.color = "black";
