@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
     <link href="/style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1a48924413.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <a class="link link-primary" id="btn-dm" onclick="darkmode()">Dark Mode</a>
+    <a class="link link-primary" id="btn-dm" onclick="changeTheme()">Dark Mode</a>
     <h1>khushal's component library</h1>
     <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
     </p>
@@ -87,6 +88,10 @@
             </li>
             <li class="list-item-inline">
                 <a class="link" href="/">about</a>
+            </li>
+            <li class="list-item-inline">
+                <span id="toggleknop" onclick="changeTheme()"><i class="fas fa-moon" id="zon"
+                        style="color:#737eac;"></i></span>
             </li>
         </ul>
     </nav>

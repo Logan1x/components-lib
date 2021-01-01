@@ -12,6 +12,16 @@ body{
     /* margin-bottom;: 0px */
 }
 
+/* dark mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .ow{
+    color: black;
+}
+
 hr{
     margin: 2rem 0rem;
 }
