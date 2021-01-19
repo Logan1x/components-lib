@@ -13,12 +13,22 @@ body{
 }
 
 /* dark mode */
-.dark-mode {
+/* .dark-mode {
     background-color: black;
     color: white;
 }
 
 .dark-mode .ow{
+    color: black;
+} */
+
+/* dark-theme */
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme .ow{
     color: black;
 }
 
